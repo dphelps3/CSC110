@@ -4,7 +4,7 @@
 //  Assign:    Assign 16
 //  Program:   Nested Intro
 //  Purpose:
-//    learning how to nest if statements
+//    learning how to do nest if statements
 //==========================================================================================
 import java.util.*;
 import java.text.*;
