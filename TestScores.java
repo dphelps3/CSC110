@@ -37,7 +37,7 @@ public class TestScores
 							scoreAcum ++;
 						}//  end SENTINEL control
 			//---------- Calculations
-			scoreAvg = total / cntr;
+			scoreAvg = total / scoreAcum;
 
 			//---------- End Task
 			System.out.println("\nNum of Scores:          " + scoreAcum);
