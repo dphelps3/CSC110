@@ -7,7 +7,7 @@ public class TestScores
 		//----  declare vars --------
 		String  ans = "";
 
-		int  total      = 0,
+		int      total      = 0,
 			 score      = 0,
 			 scoreHigh  = 0,
 			 scoreLow   = 0,
@@ -15,7 +15,7 @@ public class TestScores
 
 	    double scoreAvg = 0;
 
-	    boolean performTask = true
+	    boolean performTask = true;
 
 		Scanner keyboard = new Scanner(System.in);
 
@@ -42,7 +42,7 @@ public class TestScores
 			//---------- End Task
 			System.out.println("\nNum of Scores:          " + scoreAcum);
 			System.out.println("Average Score:          " + df1.format(scoreAvg));
-			System.out.println("Lowest Score:            " +  scoreLow);
+			System.out.println("Lowest Score:           " +  scoreLow);
 			System.out.println("Highest Score:          " +  scoreHigh);
 
 			//--------------step 3:  update control var -----------
