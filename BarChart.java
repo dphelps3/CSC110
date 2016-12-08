@@ -27,17 +27,43 @@ public class BarChart
 		System.out.println("\nSALES BAR CHART");
 
 		//----- Calculations
+		System.out.print("Store 1: ");
 		while ( numCount <= sales1)
 		{
 			if (count == 9){
 			System.out.print("|");
-			 numCount += 1000;
-			 count = 0;
+			 numCount += 100;
+			 count = 1;
 	       }else
 			System.out.print("*");
 			 numCount += 100;
 			 count ++;
+		}// ---- Store Sales 1
 
-		}
+		System.out.print("\nStore 2: ");
+		while ( numCount <= sales3)
+				{
+					if (count == 9){
+					System.out.print("|");
+					 numCount += 100;
+					 count = 1;
+			       }else
+					System.out.print("*");
+					 numCount += 100;
+					 count ++;
+				}// ---- Store Sales 2
+
+		System.out.print("\nStore 3: ");
+		while ( numCount <= sales3)
+				{
+					if (count == 9){
+					System.out.print("|");
+					 numCount += 100;
+					 count = 1;
+			       }else
+					System.out.print("*");
+					 numCount += 100;
+					 count ++;
+				}// ---- Store Sales 3
 	}// --- end main
 }// --- end pgm
