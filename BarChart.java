@@ -39,9 +39,11 @@ public class BarChart
 			 numCount += 100;
 			 count ++;
 		}// ---- Store Sales 1
+		count    = 0;
+		numCount = 0;
 
 		System.out.print("\nStore 2: ");
-		while ( numCount <= sales3)
+		while ( numCount <= sales2)
 				{
 					if (count == 9){
 					System.out.print("|");
@@ -52,6 +54,8 @@ public class BarChart
 					 numCount += 100;
 					 count ++;
 				}// ---- Store Sales 2
+		count    = 0;
+		numCount = 100;
 
 		System.out.print("\nStore 3: ");
 		while ( numCount <= sales3)
